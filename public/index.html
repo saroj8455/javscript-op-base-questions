@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript Interview</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1 style="color: red" class="header__text" id="title">
+        JavaScript Interview - <code>apply inline style</code>
+      </h1>
+      <h1 class="header__text" id="title">
+        JavaScript Interview - <code>apply (#) id selector style</code>
+      </h1>
+      <h1 class="header__text">
+        JavaScript Interview - <code>apply (.) class selector style </code>
+      </h1>
+      <h1>JavaScript Interview - <code>apply tag selector style</code </h1>
+    </header>
+
+    <main>
+      <article>
+        <div class="context">
+          <span class="context-head">1. Event Propagation :</span> is about how an event travels through the DOM (capturing and bubbling).
+        </div>
+        <div class="outer-elem">
+          <div class="inner-elem">
+            <button id="btn">Click me</button>
+           
+          </div>
+        </div>
+      </article>
+
+      <article>
+        <button id="api-call">Create API Call</button>
+      </article>
+      <article>
+        <div class="context">
+          <span class="context-head">2. Event Delegation :</span> is a technique that utilizes event propagation to efficiently handle events on multiple child elements using a single parent listener.
+        </div>
+        <ul id="fruits">
+          <li>Apple</li>
+          <li>Orange</li>
+          <li>Banana</li>
+          <li>Wood Apple</li>
+        </ul>
+      </article>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>

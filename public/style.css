@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+html,
+body {
+  font-family: 'Inter', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* Common button styles */
+button {
+  padding: 10px 20px;
+  background-color: #007bff; /* Primary button color */
+  color: #fff; /* Text color */
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  font-family: 'Arial', sans-serif;
+}
+
+header h1 {
+  color: blue;
+}
+
+.header__text {
+  color: gray;
+}
+
+#title {
+  color: hotpink;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  font-size: 1.2rem;
+  padding-bottom: 0.5rem;
+  cursor: pointer;
+  letter-spacing: 0.05rem;
+}
+li:hover {
+  text-decoration: underline;
+}
+
+.context {
+  font-size: 1.4rem;
+  padding: 1.5rem 0;
+}
+.context .context-head {
+  font-weight: bold;
+}
+
+.outer-elem {
+  padding: 2rem 0;
+  border: 0.2rem solid #ccc;
+}
+
+.inner-elem {
+  padding: 1rem;
+  border: 0.1rem solid #007bff;
+}
